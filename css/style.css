@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body{
+  background-color: black;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.panelText{
+  color: white;
+  text-align: right;
+  position: absolute;
+  width: 100%;
+  margin-top: -2px;
+}
+
+div {
+  font-family: 'Arvo';
+  color: white;
+  vertical-align: bottom;
+  display: block;
+}
+
+#map{
+  position:absolute;
+}
+
+#shadow{
+  position:absolute;
+}
+
+.dark{
+  background-color:black;
+}
+.movetotop { z-index: 10; }
+
+.mapRow {
+  display: block;
+  height: 20px;
+  margin-top: -1px;
+}
+
+span {
+  display: inline-block;
+  white-space: pre;
+  width: 20px;
+  height: 20px;
+}
+
+.player {
+  position: relative;
+  background-color: black;
+}
+
+#playerHealth {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+#playerHealthBar{
+  position: absolute;
+  height: 100%;
+  background-color: green;
+}
+
+#playerHealthPanel {
+    position: absolute;
+    width: 40%;
+    height: 15px;
+    background-color: red;
+}
+
+#playerHealthBarPanel{
+  position: absolute;
+  height: 100%;
+  background-color: green;
+}
+
+#playerExpPanel {
+    position: absolute;
+    width: 40%;
+    height: 15px;
+    background-color: gray;
+}
+
+#playerExpBarPanel{
+  position: absolute;
+  height: 100%;
+  background-color: blue;
+}
+
+.potion{
+  background-color:green;
+}
+
+.ladder {
+  background-color: #542515;
+}
+
+.weapon {
+  background-color: brown;
+}
+
+.armour {
+  background-color: blue;
+}
+
+.villain {
+  position: relative;
+  background-color: purple;
+}
+
+.tile0{
+  background-color: gray;
+}
+
+.tile1 {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/564x/b3/ba/c5/b3bac505c3539a7b61104a7da2500c10.jpg');
+}
+
+#villain0Health, #villain1Health, #villain2Health, #villain3Health, #villain4Health {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+#villain0HealthBar, #villain1HealthBar, #villain2HealthBar, #villain3HealthBar, #villain4HealthBar{
+  position: absolute;
+  height: 100%;
+  background-color: green;
+}
+
+.boss{
+  position: relative;
+  background-color: yellow;
+}
+
+#bossHealth{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+#bossHealthBar{
+    position: absolute;
+    height: 100%;
+    background-color: green;
+}
+
+.shadow1 {
+  background-color: rgba(0, 0, 0, 0);
+}
+.shadow2 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.shadow3 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.shadow4 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.shadow5 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.shadow6 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.shadow7 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
